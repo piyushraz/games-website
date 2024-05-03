@@ -1,0 +1,98 @@
+body {
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+
+nav ul {
+	border-style: solid;
+	list-style-type: none;
+	text-align: center;
+	border-width: thin;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0;
+}
+
+nav li {
+
+	margin: 3px;
+	background-color: black;
+	padding: 5px;
+	
+}
+
+nav ul a {
+
+	text-decoration: none;
+	color: white;
+
+}
+
+
+.guess-game.set {
+    background-color: white;
+	border-color: black;
+    border-style: solid;
+	border-width: thin;
+}
+
+.guess-game.set a {
+    color: black;
+}
+
+
+.all-stats.set {
+    background-color: white;
+	border-color: black;
+    border-style: solid;
+	border-width: thin;
+}
+
+.all-stats.set a {
+    color: black;
+}
+
+.rock-paper-scissors.set {
+    background-color: white;
+	border-color: black;
+    border-style: solid;
+	border-width: thin;
+}
+
+.rock-paper-scissors.set a {
+    color: black;
+}
+
+
+main {
+	padding: 5px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+section.stats {
+	padding-top: 0px;
+	padding-bottom: 5px;
+  }
+
+footer {
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	nav li {
+		width: 100%;
+		height: auto;
+		
+	}
+
+}

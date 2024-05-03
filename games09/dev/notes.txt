@@ -1,0 +1,9 @@
+./setup.sh user host database password
+
+# DB_HOST = host
+# DB_USER = user
+# DB_PASSWORD = password
+# DB_NAME = database
+
+# If you want to talk directly to the db, with password: password
+# psql -U user -d database -h host 
