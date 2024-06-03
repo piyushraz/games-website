@@ -1,3 +1,3 @@
 <?php
-        $g_dbconnect_string="host=mcsdb.utm.utoronto.ca port=5432 dbname=razdanpi_309 user=razdanpi password=40121";
+        $g_dbconnect_string="host=Secret port=5432 dbname=Secret user=Secret password=Secret";
 ?>
